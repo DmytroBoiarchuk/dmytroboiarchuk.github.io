@@ -3,7 +3,7 @@
     top: 0%;
     width: 100%;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     color: #761547;
 }
 .main-frame {
@@ -11,6 +11,7 @@
     width: 3000px;
     height: 1500px;
     border: 10px solid #761547;
+    background-color: black;
 }
 
 .photobox{
@@ -24,14 +25,16 @@
 .name-field{
     position: absolute;
     top:10px;
-    left: 40%;
-    font-size: 25px;
+    left: 32%;
+    font-size: 91px;
 }
 .discription-field{
     position: absolute;
+    width: 2000px;
+    height: 500px;
     top: 300px;
-    left: 30%;
-    font-size:20px;
+    left: 23%;
+    font-size:90px;
 
 
 }
