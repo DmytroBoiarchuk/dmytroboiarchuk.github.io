@@ -47,3 +47,9 @@
     bottom: 20px;
     color: antiquewhite;
 }
+@media (max-width: 600px) {
+    discription-field, photobox,name-field {
+        width: 100%;
+        height: auto;
+    }
+}
