@@ -8,8 +8,8 @@
 }
 .main-frame {
     position: relative;
-    width: 3000px;
-    height: 1500px;
+    width: 1500px;
+    height: 1000px;
     border: 10px solid #761547;
     background-color: black;
 }
@@ -30,9 +30,9 @@
 }
 .discription-field{
     position: absolute;
-    width: 2000px;
-    height: 500px;
-    top: 300px;
+    width: 800px;
+    height: 400px;
+    top: 200px;
     left: 23%;
     font-size:90px;
 
