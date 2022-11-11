@@ -3,48 +3,48 @@
     top: 0%;
     width: 100%;
     text-align: center;
-    font-size: 60px;
+    font-size: 20px;
     color: #761547;
 }
 .main-frame {
     position: relative;
     left: 30%;
-    width: 1500px;
-    height: 1000px;
-    border: 10px solid #761547;
+    width: 500px;
+    height: 333px;
+    border: 3px solid #761547;
     background-color: black;
 }
 
 .photobox{
     float:left;
     position: absolute;
-    top:30px;
-    left:5px;
-    width: 500px;
-    height: 600px;
+    top:10px;
+    left:2px;
+    width: 167px;
+    height: 200px;
     border: 3px solid #761547;
 }
 .name-field{
     float:left;
     position: absolute;
-    top:10px;
+    top:3px;
     left: 38%;
-    font-size: 50px;
+    font-size: 16px;
 }
 .discription-field{
     float:left;
     position: absolute;
-    width: 800px;
-    height: 400px;
-    top: 300px;
+    width: 270px;
+    height: 140px;
+    top: 100px;
     left: 38%;
-    font-size:40px;
+    font-size:17px;
 
 
 }
 .contacts{
     position: absolute;
     width: 100%;
-    bottom: 20px;
+    bottom: 7px;
     color: antiquewhite;
 }
