@@ -7,8 +7,8 @@
     color: #761547;
 }
 .main-frame {
-    left:25%;
     position: relative;
+    left:25%;
     width: 1500px;
     height: 1000px;
     border: 10px solid #761547;
