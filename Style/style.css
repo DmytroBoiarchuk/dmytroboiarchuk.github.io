@@ -1,0 +1,41 @@
+.header {
+    position: static;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: #761547;
+}
+.main-frame {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    border: 3px solid #761547;
+}
+
+.photobox{
+    position: absolute;
+    top:30px;
+    left:5px;
+    width: 200px;
+    height: 300px;
+    border: 3px solid #761547;
+}
+.name-field{
+    position: absolute;
+    top:10px;
+    left: 40%;
+}
+.discription-field{
+    position: absolute;
+    top: 100px;
+    left: 30%;
+
+
+}
+.contacts{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    color: antiquewhite;
+}
