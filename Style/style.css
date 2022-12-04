@@ -1,50 +1,166 @@
-.header {
-    position: static;
-    top: 0%;
+#title-page {
+    display: flex;
+    height: 150px;
     width: 100%;
-    text-align: center;
-    font-size: 20px;
-    color: #761547;
+    margin: 0 auto;
+    justify-content: center;
 }
-.main-frame {
+
+.title-cv {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Javanese Text", serif;
+    color: #ffffff;
+}
+
+body {
+    background: url("images/BackGround.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.my-card {
     position: relative;
-    width: 750px;
-    height: 500px;
-    border: 3px solid #761547;
-    background-color: black;
+    z-index: 999;
+    width: 1000px;
+    height: 550px;
     margin: 0 auto;
 }
 
-.photobox{
-    float:left;
-    position: absolute;
-    top:10px;
-    left:2px;
-    width: 200px;
-    height: 300px;
-    border: 5px solid #761547;
-}
-.name-field{
-    float:left;
-    position: absolute;
-    top:5px;
-    left: 38%;
-    font-size: 22px;
-}
-.discription-field{
-    float:left;
-    position: absolute;
-    width: 400px;
-    height: 140px;
-    top: 100px;
-    left: 38%;
-    font-size:20px;
-
-
-}
-.contacts{
-    position: absolute;
+.card-block {
+    z-index: 1;
+    display: flex;
+    background: url("images/backgroundcard.jpg") no-repeat fixed;
+    background-size: cover;
     width: 100%;
-    bottom: 7px;
-    color: antiquewhite;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 50px 70px rgba(0, 0, 0, 0.25), 0 30px 30px rgba(0, 0, 0, 0.22);
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.photo {
+    margin: 95px 0 100px 25px;
+}
+
+.photo img {
+    width: 320px;
+    height: 320px;
+    border-radius: 300px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+
+}
+
+.name {
+    margin-top: 20px;;
+    width: 653px;
+    height: 70px;
+}
+
+.name h1 {
+    margin-top: 0;
+    font-size: 35px;
+    letter-spacing: 7px;
+    width: 100%;
+    font-family: "Segoe Print", serif;
+    color: #000000;
+    text-align: center;
+    font-weight: 700;
+}
+
+.about {
+    width: 653px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.about h1 {
+    font-family: "Segoe Print", serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+}
+
+.about p {
+    width: 550px;
+    height: 200px;
+    margin: 0;
+    font-size: 24px;
+    font-family: "Segoe Print", serif;
+    text-align: center;
+
+}
+.about p span{
+    font-size: 27px;
+    font-weight: 700;
+    color: darkblue;
+}
+
+.contacts {
+    position: relative;
+    height: 50px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    right: 340px;
+    top: 490px;
+}
+.contacts a i{
+    font-size: 40px;
+    color: #000000;
+}
+.works{
+    position: relative;
+    top: -70px;
+    z-index: 0;
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+.my-works{
+    width: 100%;
+    height: 100%;
+}
+.my-works div{
+    width: 190px;
+    height: 130px;
+    border-radius: 15px;
+}
+.my-works .owl-dots{
+    margin: 0 auto;
+}
+.di-gi{
+    text-align: center;
+    background-color: #1e6db0;
+    border-radius: 15px;
+    font-size: 25px;
+    color: black;
+    font-family: "Segoe Script", serif;
+}
+.di-gi a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.owl-item:hover{
+    top: 40px;
+}
+
+.one{
+    border-radius: 15px;
+}
+.two{
+    border-radius: 15px;
+}
+.three{
+    border-radius: 15px;
+}
+.four{
+    border-radius: 15px;
 }
