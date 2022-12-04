@@ -14,7 +14,7 @@
 }
 
 body {
-    background: url("../images/BackGround.jpg") no-repeat fixed;
+    background: url("../Images/BackGround.jpg") no-repeat fixed;
     background-size: cover;
 }
 
@@ -29,7 +29,7 @@ body {
 .card-block {
     z-index: 1;
     display: flex;
-    background: url("../images/backgroundcard.jpg") no-repeat fixed;
+    background: url("../Images/backgroundcard.jpg") no-repeat fixed;
     background-size: cover;
     width: 100%;
     height: 100%;
